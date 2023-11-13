@@ -11,7 +11,7 @@
 
     $name=$_GET['name'];
 
-    echo $name;
+    echo "Hola ".$name." Como estas?";
 
 
 ?>
