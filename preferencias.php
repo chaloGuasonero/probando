@@ -11,8 +11,11 @@
 
     $name=$_GET['name'];
     $surname=$_GET['surname'];
+    $color=$_GET['color'];
 
     echo "Hola ".$name." ".$surname." Como estas?";
+    echo "<br>";
+    echo "Tu Color Favorito es:".$color;
 
 
 ?>
