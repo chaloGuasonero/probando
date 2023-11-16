@@ -10,8 +10,9 @@
 <?php
 
     $name=$_GET['name'];
+    $surname=$_GET['surname'];
 
-    echo "Hola ".$name." Como estas?";
+    echo "Hola ".$name." ".$surname." Como estas?";
 
 
 ?>
